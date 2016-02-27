@@ -1,0 +1,13 @@
+<h1>"Welcome"</h1>
+<p>The Current time is <%=@time%></p>
+
+<p>Our dessert recipes aer shared with love by the world
+top <%= @chefs.size %> chefs in <%=@time%></p>
+
+<ul>
+  <%=@chefs.each do |chef| %>
+    <li><%=chef%></li>
+  <% end%>
+</us>
+
+
